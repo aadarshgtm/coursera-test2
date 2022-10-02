@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: flex;
+}
+nav{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+flex-wrap: wrap;
+}
+.photoA{
+    width: 50px;
+    height: 20px;
+     margin: 21px;
+    border-radius: 10px;
+   
+
+}
+.url{
+   text-decoration: none;
+    width: 120px;
+    max-height: 20px;
+    display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+ text-transform: uppercase;
+  margin: 18px;
+  
+}
+li{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+      margin: 36px;
+
+}
+li:link{
+    text-decoration: none;
+    color: lightblue;
+}
+.layout{
+    max-width: 200%;
+  /* height: 500px; */
+    /* background-color:lavenderblush; */
+    margin: 70px 15px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+.layout-A{
+    width: 300px;
+    max-height: 300px;
+    /* background-color: rgb(230, 244, 244); */
+    margin: 30px;
+}
+
+
+.horizontal-break{
+    width: 40px;
+    height: 5px;
+    background-color: rgb(233, 130, 233);
+    border-radius: 2.5px;
+    margin: 30px;}
+
+    .key{
+        width: 80px;
+        height: 25px;
+        border-radius: 12.5px;
+        margin: 30px;
+        text-align: center;
+        color: black;
+        background-color:pink;
+        text-transform: uppercase;
+        border: 2px solid rgb(240, 178, 54);
+    cursor:pointer;
+    }
+
+    .key:hover{
+        color: rgb(101, 101, 243);
+       
+    }
+    .photo{
+        width: 1050px;
+        height: 500px;
+    }
+
+
+
+
+    .layout-c{
+        width: 300%;
+       height:600px;
+background-color: rgb(248, 246, 243);
+display: flex;
+justify-content:flex-start;
+flex-wrap: wrap;
+align-items: center;
+
+
+    }
+    .you{
+        width: 300px;
+        height: 300px;
+        /* background-color: rgb(242, 236, 236); */
+    }
+    .anuhar{
+        width: 150px;
+        height: 150px;
+        border-radius: 75px;
+        margin: 20px;
+    }
+    .weed{
+        max-width: 300px;
+        max-height: 300px;
+        /* background-color:white; */
+        margin:30px;
+        text-align: center;
+    }
+
+.last{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+
+}
+
+    .teir{
+        width:30px;        
+        height: 30px;
+        background-color: rgb(52, 217, 214);
+        margin: 8px;
+
+    }
